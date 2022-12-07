@@ -1,0 +1,15 @@
+@each $color in gray,brown,plum,pink{
+    .c_#{$color}{
+        background-color: $color;
+    }
+}
+
+@each $color,$textcolor in (red,black),(yellow,green){
+    .div_#{$color}{
+        background-color: $color;
+        color: $textcolor;
+        p{
+            font-style: italic;
+        }
+    }
+}

@@ -1,0 +1,33 @@
+.c_gray {
+  background-color: gray;
+}
+
+.c_brown {
+  background-color: brown;
+}
+
+.c_plum {
+  background-color: plum;
+}
+
+.c_pink {
+  background-color: pink;
+}
+
+.div_red {
+  background-color: red;
+  color: black;
+}
+.div_red p {
+  font-style: italic;
+}
+
+.div_yellow {
+  background-color: yellow;
+  color: green;
+}
+.div_yellow p {
+  font-style: italic;
+}
+
+/*# sourceMappingURL=each.css.map */

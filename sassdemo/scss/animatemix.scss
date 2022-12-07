@@ -1,0 +1,26 @@
+div{
+    height:100px;
+    width:100px;
+    background-color: skyblue;
+    margin: 60px auto;
+    animation: colorchange1 2s ease infinite;
+}
+
+.div1{
+    height:100px;
+    width:100px;
+    background-color: yellow;
+    margin: 60px auto;
+    animation: colorchange2 2s ease infinite;
+}
+
+@mixin animationmixin($name,$color1,$color2){
+    @keyframes #{$name}{
+        0% {background-color: $color1;}
+        50% {background-color: $color2;}
+        100%{background-color: $color1;}
+    }
+}
+
+@include animationmixin(colorchange1,skyblue ,red );
+@include animationmixin(colorchange2,yellow ,blue );

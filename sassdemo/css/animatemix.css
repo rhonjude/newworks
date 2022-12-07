@@ -1,0 +1,40 @@
+div {
+  height: 100px;
+  width: 100px;
+  background-color: skyblue;
+  margin: 60px auto;
+  animation: colorchange1 2s ease infinite;
+}
+
+.div1 {
+  height: 100px;
+  width: 100px;
+  background-color: yellow;
+  margin: 60px auto;
+  animation: colorchange2 2s ease infinite;
+}
+
+@keyframes colorchange1 {
+  0% {
+    background-color: skyblue;
+  }
+  50% {
+    background-color: red;
+  }
+  100% {
+    background-color: skyblue;
+  }
+}
+@keyframes colorchange2 {
+  0% {
+    background-color: yellow;
+  }
+  50% {
+    background-color: blue;
+  }
+  100% {
+    background-color: yellow;
+  }
+}
+
+/*# sourceMappingURL=animatemix.css.map */

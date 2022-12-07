@@ -1,0 +1,25 @@
+.p1 {
+  border: 1px solid #ffcc00;
+  width: 40px;
+  background-color: #00e6e6;
+}
+
+.p2 {
+  border: 2px solid #ffcc00;
+  width: 80px;
+  background-color: #00cccc;
+}
+
+.p3 {
+  border: 3px solid #ffcc00;
+  width: 120px;
+  background-color: #00b3b3;
+}
+
+.p4 {
+  border: 4px solid #ffcc00;
+  width: 160px;
+  background-color: #009999;
+}
+
+/*# sourceMappingURL=fordemo.css.map */
